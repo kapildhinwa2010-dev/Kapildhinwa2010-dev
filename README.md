@@ -1,41 +1,48 @@
 ## Hi there 👋
 
-I'm **Kapil Dhinwa**, a school student who fell in love with AI over the holidays.
+I'm **Kapil Dhinwa**, a school student learning AI by building practical projects with AI-assisted development.
 
-During my vacations, I created this GitHub account to **learn AI with the help of AI** — and ended up building 5 real projects along the way! 
-
-🥁 **Vacations are over now, so I'll be offline for a while...**
-See you around **Holi**! 🎨 Until then — happy coding!
+I enjoy exploring new ideas in machine learning, language models, memory systems, neuromorphic computing, and wave-based AI. I design the ideas, break down the problems, and use AI as a development partner to help turn them into working projects.
 
 ---
 
-### 🚀 Projects I built during my vacations
+### 🚀 Projects
 
-All of them are **open source** — feel free to explore, use, and learn from them!
+These projects are open source—feel free to explore, use, learn from, or improve them.
 
-| # | Project | What it is |
-|---|---------|-----------|
-| 1 | [fluidtech](https://github.com/Kapildhinwa2010-dev/fluidtech) | A **bounded memory layer for language models** with exact recall for retained token IDs — NumPy core, optional PyTorch adapter |
-| 2 | [NEXUS-16](https://github.com/Kapildhinwa2010-dev/NEXUS-16) | A **wave-native byte-level AI encoder** — no tokenizer, no transformer; 16 deep learning frameworks fused into a 1.96M-parameter semantic encoder |
-| 3 | [FREQUENCY_EVER](https://github.com/Kapildhinwa2010-dev/FREQUENCY_EVER) | An experimental AI architecture where **computation is wave interference, not matrix multiplication** — tokenizer-free, GEMM-free, ternary weights as frequencies |
-| 4 | [TMU](https://github.com/Kapildhinwa2010-dev/TMU) | A **fusion/memory layer for LLMs** (TMU Layer v2) that can be transplanted into GPT-2, benchmarked head-to-head against plain GPT-2 |
-| 5 | [Spiking_GNN](https://github.com/Kapildhinwa2010-dev/Spiking_GNN) | A **bio-inspired spiking graph neural network** (NeuroSpiking-50M) with dopamine-gated 3-factor learning and homeostatic plasticity |
+| Project | What it is |
+|---|---|
+| [fluidtech](https://github.com/Kapildhinwa2010-dev/fluidtech) | A bounded memory layer for language models with exact recall, bounded KV-cache management, and an optional PyTorch adapter. |
+| [NEXUS-16](https://github.com/Kapildhinwa2010-dev/NEXUS-16) | An experimental wave-native, tokenizer-free byte-level semantic encoder. |
+| [FREQUENCY_EVER](https://github.com/Kapildhinwa2010-dev/FREQUENCY_EVER) | An experimental AI architecture exploring frequency-domain computation, wave interference, and tokenizer-free processing. |
+| [TMU](https://github.com/Kapildhinwa2010-dev/TMU) | An experimental GPT-2 plugin layer exploring external world time and internal AI compute time. |
+| [Spiking_GNN](https://github.com/Kapildhinwa2010-dev/Spiking_GNN) | A bio-inspired 241M-parameter spiking graph neural network exploring neuromorphic learning and connectome-inspired modeling. |
 
-> ⚡ Fun fact: These projects were **co-built with AI**, but the **ideas and logic are 100% mine**. I designed what to build, broke down the problems, and let the AI help me execute.
-
-⭐ Found them useful? A **star** on any repo would make my day!
+> ⚡ These projects are co-built with AI, but the ideas, direction, and system designs are mine. I use AI to help execute, test, and iterate on the concepts I want to explore.
 
 ---
 
-### 📌 Status
+### 🧠 What I'm learning
+
+- Python and PyTorch
+- Large language models and memory systems
+- Neural networks and graph learning
+- Neuromorphic and wave-based computing
+- Reproducible open-source experimentation
+
+---
+
+### 📌 Current status
 
 - 🎓 School student
-- 🤖 Learning: AI, Machine Learning
+- 🤖 Learning: AI and machine learning
 - 🏗️ Building: projects that excite me
-- 🗓️ Back online: **Holi 2027**
+- 🗓️ Back online: Holi 2027
 
-> "Learn. Build. Share. Repeat."
+### 🤝 Connect and collaborate
+
+I enjoy experimenting with AI architectures and learning in public. If you find an issue or have an idea, feel free to open an issue in the relevant repository.
+
+> **Learn. Build. Share. Repeat.**
 
 ![Kapil's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kapildhinwa2010-dev&show_icons=true&theme=default)
-
-
