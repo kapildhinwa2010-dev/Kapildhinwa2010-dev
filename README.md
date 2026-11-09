@@ -18,6 +18,22 @@ These projects are open source—feel free to explore, use, learn from, or impro
 | [TMU](https://github.com/Kapildhinwa2010-dev/TMU) | An experimental GPT-2 plugin layer exploring external world time and internal AI compute time. |
 | [Spiking_GNN](https://github.com/Kapildhinwa2010-dev/Spiking_GNN) | A bio-inspired 241M-parameter spiking graph neural network exploring neuromorphic learning and connectome-inspired modeling. |
 
+### 🧪 Measurement & trust toolkit (new)
+
+Small, honest, CI-verified research tools. Every repo ships with bounded tests, self-diagnosing CI, CodeQL, and honest limitations sections—negative results included.
+
+| Project | What it measures |
+|---|---|
+| [Draft_ponit_harness](https://github.com/Kapildhinwa2010-dev/Draft_ponit_harness) | drift-point: the exact generated token where a compressed model replay first diverges from the original. |
+| [NEVER_LIE](https://github.com/Kapildhinwa2010-dev/NEVER_LIE) | A digest-guarded exact memory that abstains on corruption instead of answering wrong. |
+| [VARIEANCE-LIES](https://github.com/Kapildhinwa2010-dev/VARIEANCE-LIES) | Rank sweeps showing how much of "99% variance preserved" is a lie for actual behavior. |
+| [RULE-FORAGER](https://github.com/Kapildhinwa2010-dev/RULE-FORAGER) | Mining inverse relations between facts, so derived rules cost zero stored bytes. |
+| [WAVE-CLASH](https://github.com/Kapildhinwa2010-dev/WAVE-CLASH) | Carrier-interference simulation: crosstalk matrices and BER curves for wave-style compute. |
+| [POWERLAW-PROBE](https://github.com/Kapildhinwa2010-dev/POWERLAW-PROBE) | SVD spectra of activations vs weights—tells you if a layer is compressible at all. |
+| [ANT-HILL](https://github.com/Kapildhinwa2010-dev/ANT-HILL) | Builds a 3D "occupancy mold" of how a model physically organizes knowledge, with an HTML viewer. |
+| [LLM-EQUATION](https://github.com/Kapildhinwa2010-dev/LLM-EQUATION) | A curve distiller that fits equations with an extrapolation gate—and rejects curve-fits that lie. |
+| [MOLECULE-COMPRESS](https://github.com/Kapildhinwa2010-dev/MOLECULE-COMPRESS) | Quality-gated LLM compression experiments; first result: ternary PTQ collapse, measured on Qwen2.5-0.5B. |
+
 > ⚡ These projects are co-built with AI, but the ideas, direction, and system designs are mine. I use AI to help execute, test, and iterate on the concepts I want to explore.
 
 ---
