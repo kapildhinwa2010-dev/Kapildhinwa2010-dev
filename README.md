@@ -1,5 +1,7 @@
 ## Hi there 👋
 
+[![Stars](https://img.shields.io/github/stars/kapildhinwa2010-dev/Kapildhinwa2010-dev?style=flat-square)](https://github.com/kapildhinwa2010-dev/Kapildhinwa2010-dev/stargazers) [![Forks](https://img.shields.io/github/forks/kapildhinwa2010-dev/Kapildhinwa2010-dev?style=flat-square)](https://github.com/kapildhinwa2010-dev/Kapildhinwa2010-dev/network/members) [![Issues](https://img.shields.io/github/issues/kapildhinwa2010-dev/Kapildhinwa2010-dev?style=flat-square)](https://github.com/kapildhinwa2010-dev/Kapildhinwa2010-dev/issues) [![Top language](https://img.shields.io/github/languages/top/kapildhinwa2010-dev/Kapildhinwa2010-dev?style=flat-square)](https://github.com/kapildhinwa2010-dev/Kapildhinwa2010-dev)
+
 I'm **Kapil Dhinwa**, a school student learning AI by building practical projects with AI-assisted development.
 
 I enjoy exploring new ideas in machine learning, language models, memory systems, neuromorphic computing, and wave-based AI. I design the ideas, break down the problems, and use AI as a development partner to help turn them into working projects.
