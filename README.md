@@ -6,33 +6,54 @@ I enjoy exploring new ideas in machine learning, language models, memory systems
 
 ---
 
-### 🚀 Projects
+### 🌊 New Architecture (4)
 
-These projects are open source—feel free to explore, use, learn from, or improve them.
+- [fluid-ARC](https://github.com/kapildhinwa2010-dev/fluid-ARC) — A numerics-first language model built on sheaf-guided spectral diffusion — every math claim machine-checked (21 self-checks, 59 CI tests).
+- [NEXUS-16](https://github.com/kapildhinwa2010-dev/NEXUS-16) — A wave-native, tokenizer-free byte-level semantic encoder crunching text at ~956K tokens/s.
+- [Spiking_GNN](https://github.com/kapildhinwa2010-dev/Spiking_GNN) — A bio-inspired 241M-parameter spiking graph neural network that computes with spikes, not dense activations.
+- [FREQUENCY_EVER](https://github.com/kapildhinwa2010-dev/FREQUENCY_EVER) — A wave-native blueprint: no floats, no tokenizer, no GEMM — computation is wave interference.
 
-| Project | What it is |
-|---|---|
-| [fluidtech](https://github.com/Kapildhinwa2010-dev/fluidtech) | A bounded memory layer for language models with exact recall, bounded KV-cache management, and an optional PyTorch adapter. |
-| [NEXUS-16](https://github.com/Kapildhinwa2010-dev/NEXUS-16) | An experimental wave-native, tokenizer-free byte-level semantic encoder. |
-| [FREQUENCY_EVER](https://github.com/Kapildhinwa2010-dev/FREQUENCY_EVER) | An experimental AI architecture exploring frequency-domain computation, wave interference, and tokenizer-free processing. |
-| [TMU](https://github.com/Kapildhinwa2010-dev/TMU) | An experimental GPT-2 plugin layer exploring external world time and internal AI compute time. |
-| [Spiking_GNN](https://github.com/Kapildhinwa2010-dev/Spiking_GNN) | A bio-inspired 241M-parameter spiking graph neural network exploring neuromorphic learning and connectome-inspired modeling. |
+### 🔌 Adaptive Plug-and-Play Layers (2)
 
-### 🧪 Measurement & trust toolkit (new)
+- [fluidtech](https://github.com/kapildhinwa2010-dev/fluidtech) 🚀 *flagship* — A bounded memory layer for language models with exact recall, bounded KV-cache management, and an optional PyTorch adapter.
+- [TMU](https://github.com/kapildhinwa2010-dev/TMU) — A GPT-2 plugin layer that carries world time into a frozen base model — only the layer trains.
 
-Small, honest, CI-verified research tools. Every repo ships with bounded tests, self-diagnosing CI, CodeQL, and honest limitations sections—negative results included.
+### 🧪 Toolkit (24 tools!)
 
-| Project | What it measures |
-|---|---|
-| [Draft_ponit_harness](https://github.com/Kapildhinwa2010-dev/Draft_ponit_harness) | drift-point: the exact generated token where a compressed model replay first diverges from the original. |
-| [NEVER_LIE](https://github.com/Kapildhinwa2010-dev/NEVER_LIE) | A digest-guarded exact memory that abstains on corruption instead of answering wrong. |
-| [VARIEANCE-LIES](https://github.com/Kapildhinwa2010-dev/VARIEANCE-LIES) | Rank sweeps showing how much of "99% variance preserved" is a lie for actual behavior. |
-| [RULE-FORAGER](https://github.com/Kapildhinwa2010-dev/RULE-FORAGER) | Mining inverse relations between facts, so derived rules cost zero stored bytes. |
-| [WAVE-CLASH](https://github.com/Kapildhinwa2010-dev/WAVE-CLASH) | Carrier-interference simulation: crosstalk matrices and BER curves for wave-style compute. |
-| [POWERLAW-PROBE](https://github.com/Kapildhinwa2010-dev/POWERLAW-PROBE) | SVD spectra of activations vs weights—tells you if a layer is compressible at all. |
-| [ANT-HILL](https://github.com/Kapildhinwa2010-dev/ANT-HILL) | Builds a 3D "occupancy mold" of how a model physically organizes knowledge, with an HTML viewer. |
-| [LLM-EQUATION](https://github.com/Kapildhinwa2010-dev/LLM-EQUATION) | A curve distiller that fits equations with an extrapolation gate—and rejects curve-fits that lie. |
-| [MOLECULE-COMPRESS](https://github.com/Kapildhinwa2010-dev/MOLECULE-COMPRESS) | Quality-gated LLM compression experiments; first result: ternary PTQ collapse, measured on Qwen2.5-0.5B. |
+Small, honest, CI-verified research tools — every repo ships with bounded tests, self-diagnosing CI, CodeQL, and honest limitations sections. Negative results included.
+
+**Measurement & trust:**
+
+- [WAVE-CLASH](https://github.com/kapildhinwa2010-dev/WAVE-CLASH) — Stack many messages into one wave signal and measure the crosstalk when you read them back.
+- [NEVER_LIE](https://github.com/kapildhinwa2010-dev/NEVER_LIE) — A digest-guarded exact memory that abstains on corruption instead of answering wrong.
+- [MOLECULE-COMPRESS](https://github.com/kapildhinwa2010-dev/MOLECULE-COMPRESS) — Quality-gated LLM compression experiments; first result: ternary PTQ collapse, measured on Qwen2.5-0.5B.
+- [VARIEANCE-LIES](https://github.com/kapildhinwa2010-dev/VARIEANCE-LIES) — Rank sweeps showing how much of "99% variance preserved" is a lie for actual behavior.
+- [RULE-FORAGER](https://github.com/kapildhinwa2010-dev/RULE-FORAGER) — Mines inverse relations between facts, so derived rules cost zero stored bytes.
+- [POWERLAW-PROBE](https://github.com/kapildhinwa2010-dev/POWERLAW-PROBE) — SVD spectra of activations vs weights — tells you if a layer is compressible at all.
+- [LLM-EQUATION](https://github.com/kapildhinwa2010-dev/LLM-EQUATION) — A curve distiller that fits equations with an extrapolation gate — and rejects curve-fits that lie.
+- [ANT-HILL](https://github.com/kapildhinwa2010-dev/ANT-HILL) — Builds a 3D "occupancy mold" of how a model physically organizes knowledge, with an HTML viewer.
+- [Draft_ponit_harness](https://github.com/kapildhinwa2010-dev/Draft_ponit_harness) — drift-point: the exact generated token where a compressed model replay first diverges from the original.
+
+**Model introspection:**
+
+- [TRACE-PATH](https://github.com/kapildhinwa2010-dev/TRACE-PATH) — Finds which block of a model carries a piece of information, with activation patching.
+- [BUS-TRACE](https://github.com/kapildhinwa2010-dev/BUS-TRACE) — Shows who writes what into the residual stream, block by block.
+- [HEAD-DETECTIVE](https://github.com/kapildhinwa2010-dev/HEAD-DETECTIVE) — Classifies what every attention head actually does, straight from its attention patterns.
+- [LOGIT-STREAM](https://github.com/kapildhinwa2010-dev/LOGIT-STREAM) — Gives every answer token a birth certificate: which layer pushed it to the top.
+- [STATE-MIRROR](https://github.com/kapildhinwa2010-dev/STATE-MIRROR) — Watches where two nearly identical prompts start to differ inside a model.
+- [-KNOCKOUT-LAB](https://github.com/kapildhinwa2010-dev/-KNOCKOUT-LAB) — Removes one block at a time and ranks every component by the damage it prevents.
+- [NOISE-STORM](https://github.com/kapildhinwa2010-dev/NOISE-STORM) — Pressure-tests every block with calibrated noise and maps what is fragile.
+- [PROBE-STACK](https://github.com/kapildhinwa2010-dev/PROBE-STACK) — Maps where a property lives inside a model, one tiny probe per layer.
+- [INNER-VOTE-](https://github.com/kapildhinwa2010-dev/INNER-VOTE-) — Checks whether a model agrees with itself: hidden-state consensus across paraphrases.
+- [KNOW-VAULT](https://github.com/kapildhinwa2010-dev/KNOW-VAULT) — Censuses the storage vault inside a memory layer: how many slots, how many dead.
+
+**Weight & representation audits:**
+
+- [LAYER-CENSUS-](https://github.com/kapildhinwa2010-dev/LAYER-CENSUS-) — Per-layer atlas of weight matrices: shapes, effective rank, spectrum decay, norm statistics.
+- [TWIN-TOWER](https://github.com/kapildhinwa2010-dev/TWIN-TOWER) — Detects duplicated and redundant layers with cross-layer similarity clustering.
+- [DEAD-CELL](https://github.com/kapildhinwa2010-dev/DEAD-CELL) — Maps internal waste: zero rows and columns in weights, plus neurons that never activate.
+- [SKIP-RUN-](https://github.com/kapildhinwa2010-dev/SKIP-RUN-) — Measures how much model depth is real by skipping every k-th block and tracking behavior deltas.
+- [GEOMETRY-SCAN](https://github.com/kapildhinwa2010-dev/GEOMETRY-SCAN) — Per-layer hidden state geometry: intrinsic dimension, anisotropy cone strength, variance spectrum.
 
 > ⚡ These projects are co-built with AI, but the ideas, direction, and system designs are mine. I use AI to help execute, test, and iterate on the concepts I want to explore.
 
@@ -62,3 +83,4 @@ I enjoy experimenting with AI architectures and learning in public. If you find 
 > **Learn. Build. Share. Repeat.**
 
 ![Kapil's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kapildhinwa2010-dev&show_icons=true&theme=default)
+
