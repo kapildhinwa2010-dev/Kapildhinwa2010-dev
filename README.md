@@ -85,4 +85,3 @@ I enjoy experimenting with AI architectures and learning in public. If you find 
 
 > **Learn. Build. Share. Repeat.**
 
-![Kapil's GitHub stats](https://github-readme-stats.vercel.app/api?username=Kapildhinwa2010-dev&show_icons=true&theme=default)
