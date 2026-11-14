@@ -9,9 +9,10 @@ I enjoy exploring new ideas in machine learning, language models, memory systems
 
 ---
 
-### 🌊 New Architecture (4)
+### 🌊 New Architecture (5)
 
 - [fluid-ARC](https://github.com/kapildhinwa2010-dev/fluid-ARC) — A numerics-first language model built on sheaf-guided spectral diffusion — every math claim machine-checked (21 self-checks, 59 CI tests).
+- [DNA_DYNIMO](https://github.com/kapildhinwa2010-dev/DNA_DYNIMO) — An experimental PyTorch toolkit exploring Fourier-feature neural fields for matrix generation, budget-aware routing, and a compact causal transformer.
 - [NEXUS-16](https://github.com/kapildhinwa2010-dev/NEXUS-16) — A wave-native, tokenizer-free byte-level semantic encoder crunching text at ~956K tokens/s.
 - [Spiking_GNN](https://github.com/kapildhinwa2010-dev/Spiking_GNN) — A bio-inspired 241M-parameter spiking graph neural network that computes with spikes, not dense activations.
 - [FREQUENCY_EVER](https://github.com/kapildhinwa2010-dev/FREQUENCY_EVER) — A wave-native blueprint: no floats, no tokenizer, no GEMM — computation is wave interference.
