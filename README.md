@@ -1,7 +1,7 @@
 ## STOP,see Repo list here👋
 >scroll down to know about my project
 
-[![Stars](https://img.shields.io/github/stars/kapildhinwa2010-dev/Kapildhinwa2010-dev?style=flat-square)](https://github.com/kapildhinwa2010-dev/Kapildhinwa2010-dev/stargazers) [![Forks](https://img.shields.io/github/forks/kapildhinwa2010-dev/Kapildhinwa2010-dev?style=flat-square)](https://github.com/kapildhinwa2010-dev/Kapildhinwa2010-dev/network/members) [![Issues](https://img.shields.io/github/issues/kapildhinwa2010-dev/Kapildhinwa2010-dev?style=flat-square)](https://github.com/kapildhinwa2010-dev/Kapildhinwa2010-dev/issues) [![Top language](https://img.shields.io/github/languages/top/kapildhinwa2010-dev/Kapildhinwa2010-dev?style=flat-square)](https://github.com/kapildhinwa2010-dev/Kapildhinwa2010-dev)
+This proflie is a mini research and tools lab for AI resrchers 
 
 I'm **Kapil Dhinwa**, a school student learning AI by building practical projects with AI-assisted development.
 
