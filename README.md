@@ -237,4 +237,10 @@ All repositories feature: CI workflows, CodeQL security analysis, comprehensive 
 
 I enjoy experimenting with AI architectures and learning in public. If you find an issue or have an idea, feel free to open an issue in the relevant repository.
 
+
+###🏳 UPCOMING PROJECT AFTER HOLI(22 MARCH 2027)
+1. GEOMETRICAL-NURAL-NETWORK
+2. NON- LINERTY
+3.PLUG AND PLAY LAYER 
+4. NEW ARCHITECTURES
 > **Learn. Build. Share. Repeat.**
