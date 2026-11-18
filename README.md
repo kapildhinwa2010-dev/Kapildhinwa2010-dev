@@ -22,6 +22,23 @@ I enjoy exploring new ideas in machine learning, language models, memory systems
 - [fluidtech](https://github.com/kapildhinwa2010-dev/fluidtech) 🚀 *flagship* — A bounded memory layer for language models with exact recall, bounded KV-cache management, and an optional PyTorch adapter.
 - [TMU](https://github.com/kapildhinwa2010-dev/TMU) — A GPT-2 plugin layer that carries world time into a frozen base model — only the layer trains.
 
+
+
+### 🧪 Failed Experiments & Post-Mortems (Archived Research)
+
+> *Not every idea works — sharing failed builds openly so the architecture, failure modes, and lessons stay documented.*
+
+- **[DNA-LLM](https://github.com/kapildhinwa2010-dev/DNA-LLM)** *(Part 1)* — [Initial architecture / idea: e.g., what you tried to build in Part 1].
+- **[DNA-LLM-PART-2](https://github.com/kapildhinwa2010-dev/DNA-LLM-PART-2)** *(Part 2)* — [Second iteration / experiment: e.g., scaling or training attempt].
+- **[DNA-LLM-PART-3](https://github.com/kapildhinwa2010-dev/DNA-LLM-PART-3)** *(Part 3)* — [Final attempt & where it broke: e.g., why the approach collapsed / didn't converge].
+
+**Why it failed (Key Takeaways):**
+- [Failure reason  — e.g., loss didn't converge / memory bottleneck / accuracy collapsed]
+
+
+And all the toolkit(24 repos) and advance tools(94 repos) made by above mentioned 3 failed projects ...
+
+
 ### 🧪 Toolkit (24 tools!)
 
 Small, honest, CI-verified research tools — every repo ships with bounded tests, self-diagnosing CI, CodeQL, and honest limitations sections. Negative results included.
