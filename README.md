@@ -24,17 +24,16 @@ I enjoy exploring new ideas in machine learning, language models, memory systems
 
 
 
-### 🧪 Failed Experiments & Post-Mortems (Archived Research)
+### 🧪 Failed Research Arc: DNA-LLM (Parts 1–3) — Post-Mortem
 
-> *Not every idea works — sharing failed builds openly so the architecture, failure modes, and lessons stay documented.*
+> *An honest archive of an ambitious attempt to compress full LLM knowledge and behavior into <1–10 MB — documenting what worked in narrow tests, where the approach broke, and why I pivoted.*
 
-- **[DNA-LLM](https://github.com/kapildhinwa2010-dev/DNA-LLM)** *(Part 1)* — [Initial architecture / idea: e.g., what you tried to build in Part 1].
-- **[DNA-LLM-PART-2](https://github.com/kapildhinwa2010-dev/DNA-LLM-PART-2)** *(Part 2)* — [Second iteration / experiment: e.g., scaling or training attempt].
-- **[DNA-LLM-PART-3](https://github.com/kapildhinwa2010-dev/DNA-LLM-PART-3)** *(Part 3)* — [Final attempt & where it broke: e.g., why the approach collapsed / didn't converge].
+- **[DNA-LLM](https://github.com/kapildhinwa2010-dev/DNA-LLM)** *(Part 1 — Weight Generation / `DNA Nanna`)*: Explored Implicit Neural Representations (randomized Fourier Features + MLP) to map 2D coordinates into ~1B virtual parameters (3.75 GB) from ~257K DNA weights (~1 MB, 3913x ratio). **Why it fell short:** Generating structured weights from coordinates didn't translate into compressing real pretrained LLM knowledge without quality collapse.
+- **[DNA-LLM-PART-2](https://github.com/kapildhinwa2010-dev/DNA-LLM-PART-2)** *(Part 2 — Behavior Extraction / `Reverse.Dean`)*: Shifted from static weights to activation-level *"Behavior DNA"* (8,784 LOC across 21 experiments using runtime SVD bottlenecks, logit lens, concept injection, spiral zoom, and distribution-shift tests). **Why it fell short:** Activation bottlenecks and concept rescue couldn't generalize reliably to unseen, open-ended prompts.
+- **[DNA-LLM-PART-3](https://github.com/kapildhinwa2010-dev/DNA-LLM-PART-3)** *(Part 3 — Knowledge Memory / `HELIX`)*: Separated storage from interpretation using SPIRAL content-addressing, wave lattices, Reed-Solomon ECC, and relational rule algebra (2,308 LOC). **Result:** Achieved 99.9–100% accuracy in 3–13 KB on narrow, rule-dense domains (e.g., structured geography/chemistry relations), **but failed the main goal** — it does not scale to general LLM knowledge, full reasoning behavior, or billions of open-ended facts.
 
-**Why it failed (Key Takeaways):**
-- [Failure reason  — e.g., loss didn't converge / memory bottleneck / accuracy collapsed]
-
+**Key Takeaway:**
+- Rule-dense, structured domains compress dramatically well, but general natural-language intelligence and reasoning cannot be replaced by compact coordinate/hash/rule memory alone — which motivated my shift toward practical plug-and-play memory layers like `fluidtech`.
 
 And all the toolkit(24 repos) and advance tools(94 repos) made by above mentioned 3 failed projects ...
 
